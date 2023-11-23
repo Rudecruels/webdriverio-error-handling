@@ -1,0 +1,44 @@
+{
+  "name": "arunlal",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "@wdio/cli": "^8.23.1",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "helmet": "^3.10.0",
+    "loopback": "^3.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^2.7.0",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/register": "^7.15.3",
+    "@wdio/local-runner": "^8.23.1",
+    "@wdio/mocha-framework": "^8.23.1",
+    "@wdio/spec-reporter": "^8.23.1",
+    "eslint": "^8.45.0",
+    "eslint-config-loopback": "^8.0.0",
+    "wdio-vite-service": "^1.0.3",
+    "wdio-wait-for": "^3.0.7"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "description": "arunlal"
+}
